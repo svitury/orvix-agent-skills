@@ -13,6 +13,7 @@ npx skills add svitury/orvix-agent-skills
 | [sec-insider-trades](skills/sec-insider-trades/SKILL.md) | Who bought or sold a stock recently (Form 4), with a link to each filing and a data-through date | SEC EDGAR submissions API and Form 4 XML | Python 3.8+, `SEC_USER_AGENT` set to your name and email |
 | [etsy-fee-profit-check](skills/etsy-fee-profit-check/SKILL.md) | What Etsy takes on an order, line by line, and the profit left | Etsy Help fee pages (rates checked 2026-11-03) | Python 3.8+, offline |
 | [job-board-visa-check](skills/job-board-visa-check/SKILL.md) | Which of a company's open jobs say "no sponsorship", "US citizens only" or "sponsorship available", with the quoted sentence | Public Greenhouse, Lever and Ashby job-board APIs | Python 3.8+ |
+| [sam-gov-opportunities](skills/sam-gov-opportunities/SKILL.md) | Open federal contract opportunities by keyword, NAICS, set-aside, agency and deadline, each with a SAM.gov link | SAM.gov public Contract Opportunities extract and USAspending.gov API | Python 3.8+ |
 
 All scripts use only the Python standard library. They need no API keys and send no telemetry.
 
@@ -53,6 +54,7 @@ Orvix, the studio that wrote these skills, also makes related products, most of 
 - Paid link: [Etsy Profit Spreadsheet](https://studio.autoquantix.com/etsy-profit-sheet?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): $19 one-time. It reads your own Etsy CSVs and shows profit per product.
 - [H-1B Sponsor Checker](https://chromewebstore.google.com/detail/h1b-sponsor-checker-visa/acainaedjbhkbnnbjpjheghbbeoiibpl?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a Chrome extension, free to use, with an optional Pro plan, that shows past H-1B filings from USCIS and DOL data. Not affiliated with or endorsed by USCIS or DOL.
 - Paid link: [ATS Jobs Search](https://apify.com/contented_catwalk/ats-jobs-search?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a pay-per-result Apify actor for searching jobs across many companies.
+- Paid link: [SAM.gov Contract Opportunities + Similar Past Awards](https://apify.com/contented_catwalk/sam-gov-contract-opportunities?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a pay-per-result Apify actor ($0.0015 per opportunity) for daily only-new alerts. Not affiliated with or endorsed by GSA or SAM.gov.
 
 The skills work fully without any of these. Links carry UTM tags so we can see whether the skills are useful to anyone.
 
