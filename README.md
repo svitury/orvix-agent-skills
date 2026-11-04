@@ -3,8 +3,10 @@
 Three free [Agent Skills](https://agentskills.io) for Claude Code, Cursor, Codex and other agents that support SKILL.md. Each skill pulls from a primary source (SEC EDGAR, Etsy Help, or a company's own job board). Every answer carries a source link and a date, so you can check it yourself.
 
 ```bash
-npx skills add OWNER/orvix-agent-skills
+npx skills add svitury/orvix-agent-skills
 ```
+
+[![skills.sh](https://skills.sh/b/svitury/orvix-agent-skills)](https://skills.sh/svitury/orvix-agent-skills)
 
 | Skill | What it answers | Source it reads | Needs |
 |---|---|---|---|
@@ -45,12 +47,12 @@ Estimated profit: 16.14 (53.8% margin)
 
 ## Disclosure
 
-Orvix, the studio that wrote these skills, also sells related paid products. Each skill links to one of them at the end, labeled as ours, and only for cases the free skill does not cover:
+Orvix, the studio that wrote these skills, also makes related products, most of them paid. Each skill links to one of them at the end, labeled as ours, and only for cases the free skill does not cover:
 
-- [SEC Insider Trades & 8-K Alerts](https://apify.com/contented_catwalk/sec-insider-trades-8k-alerts?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a pay-per-result Apify actor for monitoring many tickers.
-- [Etsy Profit Spreadsheet](https://studio.autoquantix.com/etsy-profit-sheet?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): $19 one-time. It reads your own Etsy CSVs and shows profit per product.
-- [H-1B Sponsor Checker](https://chromewebstore.google.com/detail/h1b-sponsor-checker-visa/acainaedjbhkbnnbjpjheghbbeoiibpl?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a free Chrome extension that shows past H-1B filings.
-- [ATS Jobs Search](https://apify.com/contented_catwalk/ats-jobs-search?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a pay-per-result Apify actor for searching jobs across many companies.
+- Paid link: [SEC Insider Trades & 8-K Alerts](https://apify.com/contented_catwalk/sec-insider-trades-8k-alerts?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a pay-per-result Apify actor for monitoring many tickers.
+- Paid link: [Etsy Profit Spreadsheet](https://studio.autoquantix.com/etsy-profit-sheet?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): $19 one-time. It reads your own Etsy CSVs and shows profit per product.
+- [H-1B Sponsor Checker](https://chromewebstore.google.com/detail/h1b-sponsor-checker-visa/acainaedjbhkbnnbjpjheghbbeoiibpl?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a Chrome extension, free to use, with an optional Pro plan, that shows past H-1B filings from USCIS and DOL data. Not affiliated with or endorsed by USCIS or DOL.
+- Paid link: [ATS Jobs Search](https://apify.com/contented_catwalk/ats-jobs-search?utm_source=skills&utm_medium=agent-skill&utm_campaign=readme): a pay-per-result Apify actor for searching jobs across many companies.
 
 The skills work fully without any of these. Links carry UTM tags so we can see whether the skills are useful to anyone.
 
